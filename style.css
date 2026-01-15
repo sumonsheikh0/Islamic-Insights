@@ -103,13 +103,15 @@ body {
 .hero-content {
   margin: 0 auto;
 }
-.hero-content q{
+
+.hero-content q {
   font-family: inter;
   font-size: 3.125rem;
   font-weight: 700;
 
 }
-.hero-content p{
+
+.hero-content p {
   font-family: inter;
   font-size: 1.12rem;
   font-weight: 600;
@@ -117,7 +119,7 @@ body {
   margin-bottom: 45px;
 }
 
-.hero-btn{
+.hero-btn {
   text-decoration: none;
   color: white;
   background-color: #0fab5f;
@@ -126,9 +128,10 @@ body {
   font-size: 1.12rem;
   font-weight: 700;
   border-radius: 18px;
-  
+
 
 }
+
 .hero-image {
   padding: 60px 60px;
   max-width: 600px;
@@ -140,7 +143,7 @@ body {
 
 }
 
-.about-us{
+.about-us {
   display: flex;
   justify-content: space-between;
   text-align: left;
@@ -150,27 +153,28 @@ body {
   padding-bottom: 100px;
 }
 
-.image-section{
+.image-section {
   display: block;
   width: 50%;
 }
 
-.image-A img{
+.image-A img {
   width: 80%;
-  border-radius: 60px;
-  margin-left: -80px;
+  border-radius: 40px;
+  margin-left: 1px;
 
 }
 
-.image-B img{
+.image-B img {
   border-radius: 60px;
   width: 50%;
-  margin: -380px 0px 0px 320px;
+  margin: -320px 0px 0px 320px;
   border: solid 20px white;
 }
 
-.about-content{
+.about-content {
   width: 50%;
+  margin-right: 110px;
 }
 
 .about-content span {
@@ -179,7 +183,8 @@ body {
   font-weight: 600;
   color: #0fab5f;
 }
-.about-content h2{
+
+.about-content h2 {
   font-family: inter;
   font-size: 2.2rem;
   font-weight: 700;
@@ -199,10 +204,11 @@ body {
   justify-content: left;
   align-items: center;
   gap: 30px;
-  
+
 }
-.call-btn{
- text-decoration: none;
+
+.call-btn {
+  text-decoration: none;
   color: #0fab5f;
   font-family: inter;
   font-size: 1.12rem;
@@ -210,8 +216,140 @@ body {
   border-radius: 18px;
   border: solid 2px #0fab5f;
   padding: 6px 18px;
+  cursor: pointer;
 }
-.call-btn p{
+
+.call-btn p {
   color: #0fab5f;
   margin: 0;
+}
+
+.service {
+  padding: 120px;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-content span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: inter;
+  color: #0fab5f;
+  line-height: 30px;
+}
+
+.service-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: inter;
+  line-height: 30px;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 380px;
+  padding: 40px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 12, 55, 0.13);
+  border-radius: 40px;
+  margin: 10px 15px 20px 10px;
+
+}
+
+.card span {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 50px;
+  display: flex;
+  justify-content: right;
+  margin: -25px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e3e2e2;
+  color: transparent;
+}
+
+.card i {
+  font-size: 3rem;
+  color: #0fab5f;
+  background-color: #b8e6d056;
+  padding: 25.5px 21px ;
+  border-radius: 100px;
+
+}
+.card h3{
+  text-transform: capitalize;
+  font-family: inter;
+  font-size: 1.75rem;
+  font-weight: 700;
+
+}
+
+.card p {
+  font-family: inter;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #625F71;
+  line-height: 25px;
+}
+.card a {
+  text-decoration: none;
+  font-family: inter;
+  font-size: 1.12rem;
+  font-weight: 700px;
+  color: #0fab5f;
+}
+
+.support {
+  align-items: center;
+  color: white;
+  text-align: left;
+  padding: 100px 150px;
+  background:  url(images/funfact-bg.jpg) no-repeat center/cover;
+}
+
+.support h2{
+  
+ font-family: inter;
+ font-size: 4rem;
+ font-weight: 700;
+ margin-bottom: 10px;
+}
+.support p {
+  font-family: inter;
+  font-size: 1.12;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 30px;
+  
+}
+
+.info-box{
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+}
+
+.info span{
+  font-family: inter;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+ 
+}
+.info p{
+  font-family: inter;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 40px;
 }
