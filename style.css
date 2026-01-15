@@ -25,7 +25,8 @@ body {
   align-items: center;
 }
 
-.manu, .manu a  {
+.manu,
+.manu a {
   display: flex;
   gap: 40px;
   align-items: center;
@@ -48,6 +49,7 @@ body {
   gap: 10px;
   align-items: center;
 }
+
 .social-icon i {
   color: white;
   background-color: #0fab5f;
@@ -61,14 +63,16 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  
+
 }
+
 .btn i {
   font-size: 16px;
-padding: 8.5px 7px;
-color: #0fab5f;
+  padding: 8.5px 7px;
+  color: #0fab5f;
   border: solid 2px #0fab5f;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .Subscrib {
@@ -79,4 +83,59 @@ color: #0fab5f;
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(images/bg.png);
+  margin: 0 60px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.hero-icon {
+  font-size: 5.75rem;
+  color: #0fab5f;
+}
+
+.hero-content {
+  margin: 0 auto;
+}
+.hero-content q{
+  font-family: inter;
+  font-size: 3.125rem;
+  font-weight: 700;
+
+}
+.hero-content p{
+  font-family: inter;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+
+.hero-content a{
+  text-decoration: none;
+  color: white;
+  background-color: #0fab5f;
+  padding: 12px 45px;
+  font-family: inter;
+  font-size: 1.12rem;
+  font-weight: 700;
+  border-radius: 20px;
+  
+
+}
+.hero-image {
+  padding: 60px 60px;
+  max-width: 600px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 60px;
+
 }
